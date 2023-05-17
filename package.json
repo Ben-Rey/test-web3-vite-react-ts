@@ -36,8 +36,13 @@
     }
   },
   "dependencies": {
+    "@esbuild-plugins/node-globals-polyfill": "^0.2.3",
+    "@massalabs/massa-web3": "^1.16.1",
+    "buffer": "^6.0.3",
+    "ethers": "^6.3.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "web3": "^1.10.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.0.2",
@@ -77,6 +82,7 @@
     "jest-environment-jsdom": "^28.1.1",
     "lint-staged": "^13.0.2",
     "prettier": "^2.7.1",
+    "rollup-plugin-node-polyfills": "^0.2.1",
     "sort-package-json": "^1.57.0",
     "start-server-and-test": "^1.14.0",
     "ts-jest": "^28.0.5",
